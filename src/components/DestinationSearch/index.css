@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.container {
+  text-align: center;
+}
+.seach-input {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  width: 220px;
+  background-color: #f1f5f9;
+}
+.seach-input input {
+  height: 25px;
+  border: 0px solid;
+  background-color: transparent;
+  padding: 5px;
+}
+.seach-input input:focus {
+  outline: none;
+}
+.seach-input img {
+  padding-top: 5px;
+  height: 25px;
+}
+.places-container {
+  list-style-type: none;
+}
